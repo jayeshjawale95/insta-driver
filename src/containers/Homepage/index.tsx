@@ -3,10 +3,15 @@ import { connect } from 'react-redux';
 import { Grid } from '@material-ui/core';
 import { AppDispatch } from '../../store';
 import { HomepageProps } from './Homepage.interface';
+import { fetchDriversDataRequest, fetchDriverChatDataRequest } from './reducer';
 
 const Homepage = (props: HomepageProps) => {
-  // eslint-disable-next-line
-  const {} = props;
+  const {
+    driversError,
+    driversChatError,
+    fetchDriversData,
+    fetchDriverChatData
+  } = props;
 
   return (
     <Grid container direction='row' justify='center' alignItems='center'>
@@ -18,14 +23,23 @@ const Homepage = (props: HomepageProps) => {
 };
 
 const mapStateToProps = (state: any) => {
-  const { isLoading } = state.homePage;
+  const {
+    isLoading,
+    driversError,
+    driversChatError
+  } = state.homePage;
   return {
     isLoading,
+    driversError,
+    driversChatError
   };
 };
 
 const mapDispatchToProps = (dispatch: AppDispatch) => {
-  return {};
+  return {
+    fetchDriversData: () => dispatch(fetchDriversDataRequest()),
+    fetchDriverChatData: () => dispatch(fetchDriverChatDataRequest())
+  };
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Homepage);
