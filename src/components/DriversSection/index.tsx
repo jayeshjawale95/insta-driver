@@ -11,6 +11,8 @@ import {
 import Avtar from '../../assets/Avtar.png';
 import SearchIcon from '@material-ui/icons/Search';
 import FilterIcon from '../../assets/FilterIcon.svg';
+import Drivers from '../../data/drivers';
+import {DriverInfo} from '../../models/driverInfo.interface';
 
 const DriversSection = () => {
   const classes = useStyles();
@@ -38,11 +40,13 @@ const DriversSection = () => {
     );
   }
 
-  const renderDriverItem = (itemIndex: number) => {
+  const renderDriverItem = (driver: DriverInfo, itemIndex: number) => {
     return (
       <Box className={itemIndex === 1 ? classes.userCard : classes.userCardgray}>
         <Grid container spacing={3}>
-          <Box className={classes.userCardid}> Chat ID: 3362Gd2</Box>
+          <Box className={classes.userCardid}>
+            Chat ID: {driver.chatId}
+          </Box>
           <Grid xs={3}>
             <div className={classes.userAvatar}>
               <Avatar
@@ -51,8 +55,8 @@ const DriversSection = () => {
                 aria-label="recipe"
               >
               </Avatar>
-              <Box className={classes.avatarName}> Shirly Cook</Box>
-              <Box className={classes.avatarID}> @JohntheD </Box>
+              <Box className={classes.avatarName}>{driver.name}</Box>
+              <Box className={classes.avatarID}>{driver.username}</Box>
             </div>
           </Grid>
           <Grid xs={9}>
@@ -61,8 +65,8 @@ const DriversSection = () => {
               Vacancy ads help you attract potential hires who are.....
             </Typography>
           </Grid>
-          <Box className={classes.userCardtime}> 11:00 a.m </Box>
-          <Box className={classes.userCardnumber}> 4 </Box>
+          <Box className={classes.userCardtime}>{driver.time}</Box>
+          <Box className={classes.userCardnumber}>{driver.newMessages}</Box>
         </Grid>
       </Box>
     );
@@ -72,8 +76,8 @@ const DriversSection = () => {
     return (
       <Box className={classes.userCardwrapper}>
         {
-          [1,2,3,4,5,6,7,8,9,10].map((_, index) => {
-            return renderDriverItem(index)
+          Drivers.map((driver, index) => {
+            return renderDriverItem(driver, index)
           })
         }
       </Box>

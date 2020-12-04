@@ -1,5 +1,5 @@
 export interface HomepageProps {
-  isLoading: boolean;
+  isLoading: boolean,
   driversError: string,
   driversChatError: string,
   fetchDriversData: () => void,
