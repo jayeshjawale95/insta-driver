@@ -1,0 +1,775 @@
+diff --git a/.eslintcache b/.eslintcache
+index c30a95c..1011630 100644
+--- a/.eslintcache
++++ b/.eslintcache
+@@ -1 +1 @@
+-[{"/home/ubuntu/insta-driver/src/index.tsx":"1","/home/ubuntu/insta-driver/src/reportWebVitals.ts":"2","/home/ubuntu/insta-driver/src/theme.ts":"3","/home/ubuntu/insta-driver/src/store/index.ts":"4","/home/ubuntu/insta-driver/src/app/index.tsx":"5","/home/ubuntu/insta-driver/src/app/rootReducer.ts":"6","/home/ubuntu/insta-driver/src/app/rootSaga.ts":"7","/home/ubuntu/insta-driver/src/app/history.ts":"8","/home/ubuntu/insta-driver/src/containers/Homepage/reducer.ts":"9","/home/ubuntu/insta-driver/src/containers/Homepage/saga.ts":"10","/home/ubuntu/insta-driver/src/routes/index.tsx":"11","/home/ubuntu/insta-driver/src/constant.ts":"12","/home/ubuntu/insta-driver/src/containers/Homepage/index.tsx":"13","/home/ubuntu/insta-driver/src/components/Header/index.tsx":"14","/home/ubuntu/insta-driver/src/components/Header/style.ts":"15","/home/ubuntu/insta-driver/src/components/Footer/index.tsx":"16","/home/ubuntu/insta-driver/src/components/Footer/style.ts":"17","/home/ubuntu/insta-driver/src/containers/Homepage/services.ts":"18","/home/ubuntu/insta-driver/src/data/drivers.ts":"19","/home/ubuntu/insta-driver/src/data/driver1_chat.ts":"20","/home/ubuntu/insta-driver/src/app/style.ts":"21","/home/ubuntu/insta-driver/src/containers/Homepage/style.ts":"22"},{"size":790,"mtime":1607050209000,"results":"23","hashOfConfig":"24"},{"size":425,"mtime":1607050209000,"results":"25","hashOfConfig":"24"},{"size":397,"mtime":1607050813000,"results":"26","hashOfConfig":"24"},{"size":319,"mtime":1607050209000,"results":"27","hashOfConfig":"24"},{"size":958,"mtime":1607057042000,"results":"28","hashOfConfig":"24"},{"size":143,"mtime":1607050209000,"results":"29","hashOfConfig":"24"},{"size":352,"mtime":1607050209000,"results":"30","hashOfConfig":"24"},{"size":96,"mtime":1607050209000,"results":"31","hashOfConfig":"24"},{"size":1301,"mtime":1607050209000,"results":"32","hashOfConfig":"24"},{"size":1001,"mtime":1607050209000,"results":"33","hashOfConfig":"24"},{"size":352,"mtime":1607050209000,"results":"34","hashOfConfig":"24"},{"size":44,"mtime":1607050209000,"results":"35","hashOfConfig":"24"},{"size":5059,"mtime":1607060031000,"results":"36","hashOfConfig":"24"},{"size":2863,"mtime":1607056398000,"results":"37","hashOfConfig":"24"},{"size":1254,"mtime":1607059311000,"results":"38","hashOfConfig":"24"},{"size":224,"mtime":1607050209000,"results":"39","hashOfConfig":"24"},{"size":214,"mtime":1607056777000,"results":"40","hashOfConfig":"24"},{"size":222,"mtime":1607050209000,"results":"41","hashOfConfig":"24"},{"size":2719,"mtime":1607050209000,"results":"42","hashOfConfig":"24"},{"size":1338,"mtime":1607050209000,"results":"43","hashOfConfig":"24"},{"size":744,"mtime":1607058530000,"results":"44","hashOfConfig":"24"},{"size":567,"mtime":1607060019000,"results":"45","hashOfConfig":"24"},{"filePath":"46","messages":"47","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"1ax2whc",{"filePath":"48","messages":"49","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"50","messages":"51","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"52","messages":"53","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"54","messages":"55","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"56","messages":"57","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"58","messages":"59","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"60","messages":"61","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"62","messages":"63","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"64","messages":"65","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"66","messages":"67","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"68","messages":"69","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"70","messages":"71","errorCount":0,"warningCount":5,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"72","messages":"73","errorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"74","messages":"75","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"76","messages":"77","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"78","messages":"79","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"80","messages":"81","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"82","messages":"83","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"84","messages":"85","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"86","messages":"87","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"88","messages":"89","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"/home/ubuntu/insta-driver/src/index.tsx",[],"/home/ubuntu/insta-driver/src/reportWebVitals.ts",[],"/home/ubuntu/insta-driver/src/theme.ts",[],"/home/ubuntu/insta-driver/src/store/index.ts",[],"/home/ubuntu/insta-driver/src/app/index.tsx",[],"/home/ubuntu/insta-driver/src/app/rootReducer.ts",[],"/home/ubuntu/insta-driver/src/app/rootSaga.ts",[],"/home/ubuntu/insta-driver/src/app/history.ts",[],"/home/ubuntu/insta-driver/src/containers/Homepage/reducer.ts",[],"/home/ubuntu/insta-driver/src/containers/Homepage/saga.ts",[],"/home/ubuntu/insta-driver/src/routes/index.tsx",[],"/home/ubuntu/insta-driver/src/constant.ts",[],"/home/ubuntu/insta-driver/src/containers/Homepage/index.tsx",["90","91","92","93","94"],"/home/ubuntu/insta-driver/src/components/Header/index.tsx",["95"],"/home/ubuntu/insta-driver/src/components/Header/style.ts",[],"/home/ubuntu/insta-driver/src/components/Footer/index.tsx",[],"/home/ubuntu/insta-driver/src/components/Footer/style.ts",[],"/home/ubuntu/insta-driver/src/containers/Homepage/services.ts",[],"/home/ubuntu/insta-driver/src/data/drivers.ts",[],"/home/ubuntu/insta-driver/src/data/driver1_chat.ts",[],"/home/ubuntu/insta-driver/src/app/style.ts",[],"/home/ubuntu/insta-driver/src/containers/Homepage/style.ts",[],{"ruleId":"96","severity":1,"message":"97","line":12,"column":3,"nodeType":"98","messageId":"99","endLine":12,"endColumn":12},{"ruleId":"96","severity":1,"message":"100","line":24,"column":5,"nodeType":"98","messageId":"99","endLine":24,"endColumn":17},{"ruleId":"96","severity":1,"message":"101","line":25,"column":5,"nodeType":"98","messageId":"99","endLine":25,"endColumn":21},{"ruleId":"96","severity":1,"message":"102","line":26,"column":5,"nodeType":"98","messageId":"99","endLine":26,"endColumn":21},{"ruleId":"96","severity":1,"message":"103","line":27,"column":5,"nodeType":"98","messageId":"99","endLine":27,"endColumn":24},{"ruleId":"96","severity":1,"message":"104","line":1,"column":17,"nodeType":"98","messageId":"99","endLine":1,"endColumn":25},"@typescript-eslint/no-unused-vars","'InputBase' is defined but never used.","Identifier","unusedVar","'driversError' is assigned a value but never used.","'driversChatError' is assigned a value but never used.","'fetchDriversData' is assigned a value but never used.","'fetchDriverChatData' is assigned a value but never used.","'useState' is defined but never used."]
+\ No newline at end of file
++[{"E:\\insta-driver\\src\\index.tsx":"1","E:\\insta-driver\\src\\theme.ts":"2","E:\\insta-driver\\src\\reportWebVitals.ts":"3","E:\\insta-driver\\src\\store\\index.ts":"4","E:\\insta-driver\\src\\app\\index.tsx":"5","E:\\insta-driver\\src\\app\\rootReducer.ts":"6","E:\\insta-driver\\src\\app\\rootSaga.ts":"7","E:\\insta-driver\\src\\app\\history.ts":"8","E:\\insta-driver\\src\\app\\style.ts":"9","E:\\insta-driver\\src\\containers\\Homepage\\saga.ts":"10","E:\\insta-driver\\src\\containers\\Homepage\\reducer.ts":"11","E:\\insta-driver\\src\\routes\\index.tsx":"12","E:\\insta-driver\\src\\components\\Header\\index.tsx":"13","E:\\insta-driver\\src\\components\\Footer\\index.tsx":"14","E:\\insta-driver\\src\\containers\\Homepage\\services.ts":"15","E:\\insta-driver\\src\\constant.ts":"16","E:\\insta-driver\\src\\components\\Footer\\style.ts":"17","E:\\insta-driver\\src\\components\\Header\\style.ts":"18","E:\\insta-driver\\src\\data\\driver1_chat.ts":"19","E:\\insta-driver\\src\\data\\drivers.ts":"20","E:\\insta-driver\\src\\containers\\Homepage\\index.tsx":"21","E:\\insta-driver\\src\\containers\\Homepage\\style.ts":"22"},{"size":815,"mtime":1607063639046,"results":"23","hashOfConfig":"24"},{"size":419,"mtime":1607063639049,"results":"25","hashOfConfig":"24"},{"size":440,"mtime":1607063639047,"results":"26","hashOfConfig":"24"},{"size":332,"mtime":1607063639049,"results":"27","hashOfConfig":"24"},{"size":996,"mtime":1607063639039,"results":"28","hashOfConfig":"24"},{"size":147,"mtime":1607063639039,"results":"29","hashOfConfig":"24"},{"size":366,"mtime":1607063639040,"results":"30","hashOfConfig":"24"},{"size":99,"mtime":1607063639039,"results":"31","hashOfConfig":"24"},{"size":803,"mtime":1607071996355,"results":"32","hashOfConfig":"24"},{"size":1038,"mtime":1607063639044,"results":"33","hashOfConfig":"24"},{"size":1354,"mtime":1607063639043,"results":"34","hashOfConfig":"24"},{"size":365,"mtime":1607063639047,"results":"35","hashOfConfig":"24"},{"size":2749,"mtime":1607087351606,"results":"36","hashOfConfig":"24"},{"size":237,"mtime":1607063639040,"results":"37","hashOfConfig":"24"},{"size":232,"mtime":1607063639044,"results":"38","hashOfConfig":"24"},{"size":47,"mtime":1607063639042,"results":"39","hashOfConfig":"24"},{"size":318,"mtime":1607085145623,"results":"40","hashOfConfig":"24"},{"size":1625,"mtime":1607084599488,"results":"41","hashOfConfig":"24"},{"size":1377,"mtime":1607063639045,"results":"42","hashOfConfig":"24"},{"size":2795,"mtime":1607063639045,"results":"43","hashOfConfig":"24"},{"size":12205,"mtime":1607087109824,"results":"44","hashOfConfig":"24"},{"size":4649,"mtime":1607087151895,"results":"45","hashOfConfig":"24"},{"filePath":"46","messages":"47","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},"1v8w7lb",{"filePath":"49","messages":"50","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"51","messages":"52","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"53","messages":"54","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"55","messages":"56","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"57","messages":"58","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"59","messages":"60","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"61","messages":"62","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"63","messages":"64","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"65","messages":"66","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"67","messages":"68","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"69","messages":"70","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"71","messages":"72","errorCount":0,"warningCount":5,"fixableErrorCount":0,"fixableWarningCount":0,"source":"73","usedDeprecatedRules":"48"},{"filePath":"74","messages":"75","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"76","messages":"77","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"78","messages":"79","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"80","messages":"81","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"82","messages":"83","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"84","messages":"85","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"86","messages":"87","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"48"},{"filePath":"88","messages":"89","errorCount":0,"warningCount":7,"fixableErrorCount":0,"fixableWarningCount":0,"source":"90","usedDeprecatedRules":"48"},{"filePath":"91","messages":"92","errorCount":0,"warningCount":3,"fixableErrorCount":0,"fixableWarningCount":0,"source":"93"},"E:\\insta-driver\\src\\index.tsx",[],["94","95"],"E:\\insta-driver\\src\\theme.ts",[],"E:\\insta-driver\\src\\reportWebVitals.ts",[],"E:\\insta-driver\\src\\store\\index.ts",[],"E:\\insta-driver\\src\\app\\index.tsx",[],"E:\\insta-driver\\src\\app\\rootReducer.ts",[],"E:\\insta-driver\\src\\app\\rootSaga.ts",[],"E:\\insta-driver\\src\\app\\history.ts",[],"E:\\insta-driver\\src\\app\\style.ts",[],"E:\\insta-driver\\src\\containers\\Homepage\\saga.ts",[],"E:\\insta-driver\\src\\containers\\Homepage\\reducer.ts",[],"E:\\insta-driver\\src\\routes\\index.tsx",[],"E:\\insta-driver\\src\\components\\Header\\index.tsx",["96","97","98","99","100"],"import React, { useState } from \"react\";\r\nimport {\r\n  AppBar,\r\n  Toolbar,\r\n  Typography,\r\n  IconButton,\r\n  Button,\r\n  Grid,\r\n  Drawer,\r\n  List,\r\n  Box,\r\n  ListItem,\r\n  ListItemText,\r\n  ListItemIcon,\r\n  Divider,\r\n} from \"@material-ui/core\";\r\nimport { Home, Menu, Mail, MoveToInbox } from \"@material-ui/icons\";\r\nimport AccountBalanceWalletRoundedIcon from '@material-ui/icons/AccountBalanceWalletRounded';\r\nimport useStyles from \"./style\";\r\nimport Instadriver from '../../assets/Instadriver.png';\r\n\r\nconst Header = (props: any) => {\r\n  const classes = useStyles();\r\n  const { setOpen, open } = props;\r\n  return (\r\n    <>\r\n      <AppBar position=\"fixed\" color=\"default\" className={classes.appBar}>\r\n        <Toolbar>\r\n          <IconButton\r\n            edge=\"start\"\r\n            className={classes.menuButton}\r\n            color=\"inherit\"\r\n            aria-label=\"menu\"\r\n          >\r\n            <img className={classes.instaDriver} src={Instadriver} alt=\"\" />\r\n          </IconButton>\r\n          <Grid\r\n            className={classes.menuButtonItems}\r\n            container\r\n            direction=\"row\"\r\n            justify=\"flex-end\"\r\n            alignItems=\"flex-end\"\r\n          >\r\n            <Button variant=\"outlined\" color=\"default\" className={classes.profileJob}>\r\n              Jobs\r\n              </Button>\r\n            <Button variant=\"outlined\" color=\"default\" className={classes.profileJob}>\r\n              Get Social\r\n              </Button>\r\n            <Button\r\n              variant=\"outlined\"\r\n              color=\"inherit\"\r\n              className={classes.profileBtn}\r\n            >\r\n              James Keem\r\n              </Button>\r\n          </Grid>\r\n          <Button onClick={() => setOpen(!open)}>\r\n            Menu <Menu />\r\n          </Button>\r\n        </Toolbar>\r\n        <Box className={classes.appBorder} > </Box>\r\n      </AppBar>\r\n      <Drawer\r\n        open={open}\r\n        className={classes.drawer}\r\n        variant=\"persistent\"\r\n        classes={{\r\n          paper: classes.drawerPaper,\r\n        }}\r\n      >\r\n        <Toolbar />\r\n        <div className={classes.drawerContainer}>\r\n          <List>\r\n            {[\"Employer Profile\", \"Onboard Your Vehicles\", \"Search & Hire Drivers\", \"Inbox\", \"Recruitment\", \"My Organisations\", \"Rate A Driver\", \"My Subscription\",].map((text, index) => (\r\n              <ListItem button key={text}>\r\n                <ListItemIcon>\r\n                  {index % 2 === 0 ? <Mail className={classes.drawerIcon} />  : <MoveToInbox className={classes.drawerIcon} />}\r\n                </ListItemIcon>\r\n                <ListItemText primary={text} />\r\n              </ListItem>\r\n            ))}\r\n          </List>\r\n        </div>\r\n      </Drawer>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Header;\r\n","E:\\insta-driver\\src\\components\\Footer\\index.tsx",[],"E:\\insta-driver\\src\\containers\\Homepage\\services.ts",[],"E:\\insta-driver\\src\\constant.ts",[],"E:\\insta-driver\\src\\components\\Footer\\style.ts",[],"E:\\insta-driver\\src\\components\\Header\\style.ts",[],"E:\\insta-driver\\src\\data\\driver1_chat.ts",[],"E:\\insta-driver\\src\\data\\drivers.ts",[],"E:\\insta-driver\\src\\containers\\Homepage\\index.tsx",["101","102","103","104","105","106","107"],"import React from \"react\";\r\nimport { connect } from \"react-redux\";\r\nimport {\r\n  Avatar,\r\n  Button,\r\n  Card,\r\n  CardContent,\r\n  CardHeader,\r\n  CardMedia,\r\n  Grid,\r\n  Input,\r\n  Box,\r\n  IconButton,\r\n  InputBase,\r\n  TextField,\r\n  Typography,\r\n} from \"@material-ui/core\";\r\nimport SearchIcon from '@material-ui/icons/Search';\r\nimport { AppDispatch } from \"../../store\";\r\nimport { HomepageProps } from \"./Homepage.interface\";\r\nimport { fetchDriversDataRequest, fetchDriverChatDataRequest } from \"./reducer\";\r\nimport useStyles from \"./style\";\r\nimport { MoreVert, Add, Info } from \"@material-ui/icons\";\r\nimport AttachmentIcon from '@material-ui/icons/Attachment';\r\nimport MicIcon from '@material-ui/icons/Mic';\r\nimport SendIcon from '@material-ui/icons/Send';\r\nimport SentimentSatisfiedIcon from '@material-ui/icons/SentimentSatisfied';\r\nimport Avtar from '../../assets/Avtar.png';\r\nimport FilterIcon from '../../assets/FilterIcon.svg';\r\nimport seenIcon from '../../assets/seenIcon.svg';\r\nimport unseenIcon from '../../assets/unseenIcon.svg';\r\nimport deleteIcon from '../../assets/deleteIcon.svg';\r\n\r\n\r\n\r\nconst Homepage = (props: HomepageProps) => {\r\n  const {\r\n    driversError,\r\n    driversChatError,\r\n    fetchDriversData,\r\n    fetchDriverChatData,\r\n  } = props;\r\n  const classes = useStyles();\r\n\r\n  return (\r\n    <Grid\r\n      container\r\n      direction=\"row\"\r\n      justify=\"center\"\r\n      // alignItems=\"center\"\r\n      spacing={3}\r\n    >\r\n      <Grid item md={6}>\r\n        <Box className={classes.headerSearch}>\r\n          <form\r\n            noValidate\r\n            autoComplete=\"off\"\r\n            className={classes.searchWrapper}\r\n          >\r\n            <Button\r\n              variant=\"contained\"\r\n              className={classes.searchButton}\r\n              size=\"large\"\r\n              startIcon={<SearchIcon />}\r\n            >\r\n            </Button>\r\n            <Input\r\n              className={classes.searchInput}\r\n              placeholder=\"Search users, messages or chat id’s\"\r\n              inputProps={{ 'aria-label': 'description' }}\r\n            />\r\n          </form>\r\n          <Button>\r\n            <img src={FilterIcon} className={classes.filterIcon} alt=\"\" />\r\n          </Button>\r\n        </Box>\r\n\r\n        <Box className={classes.userCardwrapper}>\r\n\r\n\r\n          <Box className={classes.userCard} >\r\n            <Grid container spacing={3} >\r\n              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>\r\n              <Grid xs={3}>\r\n                <div className={classes.userAvatar}>\r\n                  <Avatar className={classes.avatarImg} src={Avtar} aria-label=\"recipe\"> R </Avatar>\r\n                  <Box className={classes.avatarName}> Shirly Cook</Box>\r\n                  <Box className={classes.avatarID}> @JohntheD </Box>\r\n                </div>\r\n              </Grid>\r\n              <Grid xs={9}>\r\n                <Typography variant=\"h6\" > Inquiry about reloca....</Typography>\r\n                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>\r\n              </Grid>\r\n              <Box className={classes.userCardtime} > 11:00 a.m </Box>\r\n              <Box className={classes.userCardnumber} > 4 </Box>\r\n            </Grid>\r\n          </Box>\r\n\r\n          <Box className={classes.userCardgray} >\r\n            <Grid container spacing={3} >\r\n              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>\r\n              <Grid xs={3}>\r\n                <div className={classes.userAvatar}>\r\n                  <Avatar className={classes.avatarImg} src={Avtar} aria-label=\"recipe\"> R </Avatar>\r\n                  <Box className={classes.avatarName}> Shirly Cook</Box>\r\n                  <Box className={classes.avatarID}> @JohntheD </Box>\r\n                </div>\r\n              </Grid>\r\n              <Grid xs={9}>\r\n                <Typography variant=\"h6\" > Inquiry about reloca....</Typography>\r\n                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>\r\n              </Grid>\r\n              <Box className={classes.userCardtime} > 11:00 a.m </Box>\r\n              <Box className={classes.userCardnumber} > 4 </Box>\r\n            </Grid>\r\n          </Box>\r\n\r\n          <Box className={classes.userCardgray} >\r\n            <Grid container spacing={3} >\r\n              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>\r\n              <Grid xs={3}>\r\n                <div className={classes.userAvatar}>\r\n                  <Avatar className={classes.avatarImg} src={Avtar} aria-label=\"recipe\"> R </Avatar>\r\n                  <Box className={classes.avatarName}> Shirly Cook</Box>\r\n                  <Box className={classes.avatarID}> @JohntheD </Box>\r\n                </div>\r\n              </Grid>\r\n              <Grid xs={9}>\r\n                <Typography variant=\"h6\" > Inquiry about reloca....</Typography>\r\n                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>\r\n              </Grid>\r\n              <Box className={classes.userCardtime} > 11:00 a.m </Box>\r\n              <Box className={classes.userCardnumber} > 4 </Box>\r\n            </Grid>\r\n          </Box>\r\n\r\n          <Box className={classes.userCardgray} >\r\n            <Grid container spacing={3} >\r\n              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>\r\n              <Grid xs={3}>\r\n                <div className={classes.userAvatar}>\r\n                  <Avatar className={classes.avatarImg} src={Avtar} aria-label=\"recipe\"> R </Avatar>\r\n                  <Box className={classes.avatarName}> Shirly Cook</Box>\r\n                  <Box className={classes.avatarID}> @JohntheD </Box>\r\n                </div>\r\n              </Grid>\r\n              <Grid xs={9}>\r\n                <Typography variant=\"h6\" > Inquiry about reloca....</Typography>\r\n                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>\r\n              </Grid>\r\n              <Box className={classes.userCardtime} > 11:00 a.m </Box>\r\n              <Box className={classes.userCardnumber} > 4 </Box>\r\n            </Grid>\r\n          </Box>\r\n\r\n        </Box>\r\n\r\n      </Grid>\r\n      <Grid item md={6}>\r\n        <Grid container>\r\n          <Grid item md={12}>\r\n            <Button\r\n              variant=\"contained\"\r\n              className={classes.newChat}\r\n              startIcon={<Add />}\r\n            >\r\n              Start a new chat\r\n            </Button>\r\n          </Grid>\r\n          <Grid item md={12} className={classes.chatWrapperbox}>\r\n            <Box className={classes.chatWrapper}>\r\n              <CardHeader\r\n                className={classes.chatHeader}\r\n                avatar={\r\n                  <div className={classes.avatar}>\r\n                    <Avatar className={classes.avatarImg} src={Avtar} aria-label=\"recipe\"> R </Avatar>\r\n                    <Box className={classes.avatarName}> Shirly Cook</Box>\r\n                    <Box className={classes.avatarID}> @JohntheD </Box>\r\n                  </div>\r\n                }\r\n                action={\r\n                  <div>\r\n                    <Button\r\n                      variant=\"contained\"\r\n                      className={classes.contactInfoBtn}\r\n                      startIcon={<Info />}\r\n                    >\r\n                      Contact info\r\n                    </Button>\r\n                    <IconButton aria-label=\"settings\">\r\n                      <MoreVert />\r\n                    </IconButton>\r\n                  </div>\r\n                }\r\n                title=\"Inquiry about relocation from Nairobi\"\r\n              />\r\n              <CardMedia\r\n                image=\"/static/images/cards/paella.jpg\"\r\n                title=\"Paella dish\"\r\n\r\n              />\r\n              <CardContent className={classes.chatId} >\r\n                <Typography className={classes.chatIdnumber} > Chat ID: 3362Gd2 </Typography>\r\n              </CardContent>\r\n\r\n              <Box className={classes.chatWrappermessage} >\r\n\r\n                <CardContent>\r\n                  <Typography className={classes.chatBluebox} >\r\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\r\n                </Typography>\r\n                  <Typography className={classes.charTimeyou}> 11:00 a.m. </Typography>\r\n                </CardContent>\r\n\r\n                <CardContent>\r\n                  <Typography className={classes.chatPinkbox} >\r\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\r\n                </Typography>\r\n                  <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={seenIcon} alt=\"\" /> </Typography>\r\n                </CardContent>\r\n\r\n                <CardContent>\r\n                  <Typography className={classes.chatBluebox} >\r\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\r\n                </Typography>\r\n                  <Typography className={classes.charTimeyou}> 11:00 a.m. </Typography>\r\n                </CardContent>\r\n\r\n                <CardContent>\r\n                  <Typography className={classes.chatPinkbox} >\r\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\r\n                </Typography>\r\n                  <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={unseenIcon} alt=\"\" /> </Typography>\r\n                </CardContent>\r\n\r\n\r\n                <CardContent className={classes.chatPinkboxdelete} >\r\n                  <Box>\r\n                    <Typography className={classes.chatPinkbox} >\r\n                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\r\n                  </Typography>\r\n                    <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={unseenIcon} alt=\"\" /> </Typography>\r\n                  </Box>\r\n                  <Box>\r\n                    <img className={classes.chatPinkboxdeleteicon} src={deleteIcon} alt=\"\" />\r\n                  </Box>\r\n                </CardContent>\r\n              </Box>\r\n              <Box className={classes.messageBox} >\r\n                <Input\r\n                  className={classes.messageInput}\r\n                  fullWidth\r\n                  placeholder=\"Type your message\"\r\n                  inputProps={{ 'aria-label': 'description' }}\r\n                />\r\n\r\n                <Box className={classes.buttonWrapper} >\r\n                  <Grid container spacing={3}>\r\n                    <Grid xs={6} >\r\n                      <Button size=\"large\" > <AttachmentIcon /> </Button>\r\n                      <Button size=\"large\" > <SentimentSatisfiedIcon /> </Button>\r\n                      <Button size=\"large\" > <MicIcon /> </Button>\r\n                    </Grid>\r\n                    <Grid xs={6} >\r\n                      <Button color=\"primary\" className={classes.sendButtonIcon} > <SendIcon /> </Button>\r\n                    </Grid>\r\n                  </Grid>\r\n                </Box>\r\n\r\n              </Box>\r\n            </Box>\r\n          </Grid>\r\n        </Grid>\r\n      </Grid>\r\n    </Grid>\r\n  );\r\n};\r\n\r\nconst mapStateToProps = (state: any) => {\r\n  const { isLoading, driversError, driversChatError } = state.homePage;\r\n  return {\r\n    isLoading,\r\n    driversError,\r\n    driversChatError,\r\n  };\r\n};\r\n\r\nconst mapDispatchToProps = (dispatch: AppDispatch) => {\r\n  return {\r\n    fetchDriversData: () => dispatch(fetchDriversDataRequest()),\r\n    fetchDriverChatData: () => dispatch(fetchDriverChatDataRequest()),\r\n  };\r\n};\r\n\r\nexport default connect(mapStateToProps, mapDispatchToProps)(Homepage);\r\n","E:\\insta-driver\\src\\containers\\Homepage\\style.ts",["108","109","110"],"import { cyan, yellow } from '@material-ui/core/colors';\r\nimport { makeStyles, Theme } from '@material-ui/core/styles';\r\nimport { BorderRight } from '@material-ui/icons';\r\n\r\n\r\nconst useStyles = makeStyles((theme: Theme) => ({\r\n  newChat: {\r\n    backgroundColor: '#FFBB00',\r\n    float: 'right',\r\n    marginBottom: theme.spacing(3),\r\n    textTransform: 'none',\r\n    color: '#fff',\r\n  },\r\n  contactInfoBtn: {\r\n    backgroundColor: '#6B6565',\r\n    color: '#fff',\r\n    textTransform: 'none',\r\n    '&:hover': {\r\n      color: '#000',\r\n    },\r\n  },\r\n  chatHeader: {\r\n    background: '#E8F5F9',\r\n    borderRadius: '15px 15px 0 0',\r\n    borderBottom: '1px solid #C4C4C4',\r\n  },\r\n  chatWrapper: {\r\n    borderRadius: '15px',\r\n    border: '1px solid #C4C4C4',\r\n  },\r\n  chatWrapperbox: {\r\n    background: '#fff',\r\n    borderRadius: '15px'\r\n  },\r\n  avatarName: {\r\n    marginTop: '10px',\r\n    fontSize: '18px',\r\n    fontWeight: 'bold',\r\n  },\r\n  avatarID: {\r\n    marginTop: '5px',\r\n    color: '#999',\r\n  },\r\n  avatarImg: {\r\n    width: '52px',\r\n    height: '52px',\r\n    margin: 'auto',\r\n  },\r\n  avatar: {\r\n    textAlign: 'center',\r\n    width: '120px',\r\n    marginTop: '-40px',\r\n  },\r\n  userAvatar: {\r\n    textAlign: 'center',\r\n  },\r\n  headerSearch: {\r\n    textAlign: 'center',\r\n    width: '100%',\r\n    display: 'inline-flex',\r\n  },\r\n  searchButton: {\r\n    borderRadius: '50px',\r\n    minWidth: '30px',\r\n    padding: '10px',\r\n    marginTop: '2px',\r\n    boxShadow: 'none',\r\n    position: 'absolute',\r\n    background: 'none'\r\n  },\r\n  searchInput: {\r\n    padding: '6px 10px',\r\n    width: '90%',\r\n    marginLeft: '32px',\r\n    '&::before': {\r\n      borderBottom: 'none !important',\r\n    },\r\n    '&::after': {\r\n      borderBottom: 'none !important',\r\n    },\r\n  },\r\n  searchWrapper: {\r\n    border: '1px solid #FFBB00',\r\n    width: 'calc(100% - 80px)',\r\n    borderRadius: '50px',\r\n    background: '#FFFFFF',\r\n  },\r\n  filterIcon: {\r\n    width: '36px',\r\n  },\r\n  chatId: {\r\n    position: 'relative',\r\n    textAlign: 'right',\r\n  },\r\n  chatIdnumber: {\r\n    position: 'absolute',\r\n    background: '#EFEBEB',\r\n    padding: '6px 10px',\r\n    right: '0',\r\n    top: '0',\r\n    borderRadius: '0 0 0 5px'\r\n  },\r\n  chatBluebox: {\r\n    width: '80%',\r\n    background: '#ECF2FA',\r\n    padding: '20px',\r\n    borderRadius: '15px 15px 15px 0'\r\n  },\r\n  chatWrappermessage: {\r\n    padding: '30px',\r\n    overflowY: 'auto',\r\n    maxHeight: '50vh',\r\n  },\r\n  charTimeyou: {\r\n    color: '#C4C4C4',\r\n    padding: '5px',\r\n  },\r\n  chatPinkbox: {\r\n    width: '80%',\r\n    background: '#FCF2F7',\r\n    padding: '20px',\r\n    borderRadius: '15px 15px 0 15px',\r\n    marginLeft: 'auto',\r\n  },\r\n  charTimeme: {\r\n    color: '#C4C4C4',\r\n    padding: '5px',\r\n    textAlign: 'right',\r\n  },\r\n  seenIcon: {\r\n    verticalAlign: 'middle',\r\n    width: '24px',\r\n  },\r\n  chatPinkboxdelete: {\r\n    display: 'flex',\r\n  },\r\n  chatPinkboxdeleteicon: {\r\n    width: '24px',\r\n    marginTop: '100%',\r\n    marginLeft: '10px',\r\n  },\r\n  userCardwrapper: {\r\n    marginTop: '20px',\r\n    padding: '30px',\r\n    borderRadius: '6px 6px 0 0',\r\n    background: '#fff',\r\n    maxHeight: '70vh',\r\n    overflowY: 'auto',\r\n  },\r\n  userCard: {\r\n    padding: '40px 20px',\r\n    background: '#E8F5F9',\r\n    borderRadius: '6px',\r\n    position: 'relative',\r\n    border: '1px solid #FFBB00',\r\n    marginBottom: '30px',\r\n  },\r\n  userCardgray: {\r\n    padding: '40px 20px',\r\n    background: '#F9F8F8',\r\n    borderRadius: '6px',\r\n    position: 'relative',\r\n    border: '1px solid #C4C4C4',\r\n    marginBottom: '30px',\r\n  },\r\n  userCardid: {\r\n    background: '#EFEBEB',\r\n    position: 'absolute',\r\n    padding: '6px',\r\n    borderRadius: '0 6px 0 6px',\r\n    right: '0',\r\n    top: '0',\r\n  },\r\n  userCardtime: {\r\n    position: 'absolute',\r\n    bottom: '15px',\r\n    right: '30px',\r\n    color: '#279F2C',\r\n  },\r\n  userCardnumber: {\r\n    position: 'absolute',\r\n    bottom: '-18px',\r\n    right: '-18px',\r\n    background: '#279F2C',\r\n    borderRadius: '50px',\r\n    width: '42px',\r\n    height: '42px',\r\n    textAlign: 'center',\r\n    lineHeight: '42px',\r\n    color: '#fff',\r\n  },\r\n  messageBox: {\r\n    borderRadius: '15px',\r\n    border: '1px solid #FFBB00'\r\n  },\r\n  messageInput: {\r\n    padding: '6px 10px',\r\n    margin: '15px ',\r\n    '&::before': {\r\n      borderBottom: 'none !important',\r\n    },\r\n    '&::after': {\r\n      borderBottom: 'none !important',\r\n    },\r\n  },\r\n  buttonWrapper: {\r\n    background: '#F9F8F8',\r\n    padding: '20px 30px',\r\n    borderRadius: '0 0 15px 15px'\r\n  },\r\n  sendButtonIcon: {\r\n    background: '#FFBB00',\r\n    color: '#fff',\r\n    float: 'right',\r\n    '&:hover': {\r\n      background: '#914A9C',\r\n    },\r\n  },\r\n}));\r\n\r\nexport default useStyles;\r\n",{"ruleId":"111","replacedBy":"112"},{"ruleId":"113","replacedBy":"114"},{"ruleId":"115","severity":1,"message":"116","line":1,"column":17,"nodeType":"117","messageId":"118","endLine":1,"endColumn":25},{"ruleId":"115","severity":1,"message":"119","line":5,"column":3,"nodeType":"117","messageId":"118","endLine":5,"endColumn":13},{"ruleId":"115","severity":1,"message":"120","line":15,"column":3,"nodeType":"117","messageId":"118","endLine":15,"endColumn":10},{"ruleId":"115","severity":1,"message":"121","line":17,"column":10,"nodeType":"117","messageId":"118","endLine":17,"endColumn":14},{"ruleId":"115","severity":1,"message":"122","line":18,"column":8,"nodeType":"117","messageId":"118","endLine":18,"endColumn":39},{"ruleId":"115","severity":1,"message":"123","line":6,"column":3,"nodeType":"117","messageId":"118","endLine":6,"endColumn":7},{"ruleId":"115","severity":1,"message":"124","line":14,"column":3,"nodeType":"117","messageId":"118","endLine":14,"endColumn":12},{"ruleId":"115","severity":1,"message":"125","line":15,"column":3,"nodeType":"117","messageId":"118","endLine":15,"endColumn":12},{"ruleId":"115","severity":1,"message":"126","line":38,"column":5,"nodeType":"117","messageId":"118","endLine":38,"endColumn":17},{"ruleId":"115","severity":1,"message":"127","line":39,"column":5,"nodeType":"117","messageId":"118","endLine":39,"endColumn":21},{"ruleId":"115","severity":1,"message":"128","line":40,"column":5,"nodeType":"117","messageId":"118","endLine":40,"endColumn":21},{"ruleId":"115","severity":1,"message":"129","line":41,"column":5,"nodeType":"117","messageId":"118","endLine":41,"endColumn":24},{"ruleId":"115","severity":1,"message":"130","line":1,"column":10,"nodeType":"117","messageId":"118","endLine":1,"endColumn":14},{"ruleId":"115","severity":1,"message":"131","line":1,"column":16,"nodeType":"117","messageId":"118","endLine":1,"endColumn":22},{"ruleId":"115","severity":1,"message":"132","line":3,"column":10,"nodeType":"117","messageId":"118","endLine":3,"endColumn":21},"no-native-reassign",["133"],"no-negated-in-lhs",["134"],"@typescript-eslint/no-unused-vars","'useState' is defined but never used.","Identifier","unusedVar","'Typography' is defined but never used.","'Divider' is defined but never used.","'Home' is defined but never used.","'AccountBalanceWalletRoundedIcon' is defined but never used.","'Card' is defined but never used.","'InputBase' is defined but never used.","'TextField' is defined but never used.","'driversError' is assigned a value but never used.","'driversChatError' is assigned a value but never used.","'fetchDriversData' is assigned a value but never used.","'fetchDriverChatData' is assigned a value but never used.","'cyan' is defined but never used.","'yellow' is defined but never used.","'BorderRight' is defined but never used.","no-global-assign","no-unsafe-negation"]
+\ No newline at end of file
+diff --git a/src/app/style.ts b/src/app/style.ts
+index a37b3f7..71257bb 100644
+--- a/src/app/style.ts
++++ b/src/app/style.ts
+@@ -5,12 +5,13 @@ const drawerWidth = 240;
+ const useStyles = makeStyles((theme: Theme) => ({
+   root: {
+     display: 'flex',
++    background: '#f5f5f5',
+   },
+   mainContent:{
+-    minHeight:'80vh',
++    minHeight:'90vh',
+   },
+   content: {
+-    marginTop: '60px',
++    marginTop: '90px',
+     flexGrow: 1,
+     padding: theme.spacing(3),
+     transition: theme.transitions.create('margin', {
+diff --git a/src/components/Footer/style.ts b/src/components/Footer/style.ts
+index 80743b1..f4847aa 100644
+--- a/src/components/Footer/style.ts
++++ b/src/components/Footer/style.ts
+@@ -4,6 +4,10 @@ const useStyles = makeStyles((theme: Theme) => ({
+   root: {
+     flexGrow: 1,
+     zIndex: theme.zIndex.drawer + 1,
++    background: '#131313',
++    color: '#fff',
++    marginTop: '30px',
++    padding: '15px',
+   },
+ }));
+ 
+diff --git a/src/components/Header/index.tsx b/src/components/Header/index.tsx
+index 61f2be1..83be357 100644
+--- a/src/components/Header/index.tsx
++++ b/src/components/Header/index.tsx
+@@ -8,13 +8,16 @@ import {
+   Grid,
+   Drawer,
+   List,
++  Box,
+   ListItem,
+   ListItemText,
+   ListItemIcon,
+   Divider,
+ } from "@material-ui/core";
+ import { Home, Menu, Mail, MoveToInbox } from "@material-ui/icons";
++import AccountBalanceWalletRoundedIcon from '@material-ui/icons/AccountBalanceWalletRounded';
+ import useStyles from "./style";
++import Instadriver from '../../assets/Instadriver.png';
+ 
+ const Header = (props: any) => {
+   const classes = useStyles();
+@@ -29,43 +32,34 @@ const Header = (props: any) => {
+             color="inherit"
+             aria-label="menu"
+           >
+-            {/* TODO: Add image here */}
+-            <Home />
+-            <Typography variant="h6" className={classes.title}>
+-              InstaDriver
+-            </Typography>
++            <img className={classes.instaDriver} src={Instadriver} alt="" />
+           </IconButton>
+           <Grid
+             className={classes.menuButtonItems}
+             container
+             direction="row"
+-            justify="space-around"
+-            alignItems="center"
++            justify="flex-end"
++            alignItems="flex-end"
+           >
+-            <Grid item>
+-              <Button variant="contained" color="default">
+-                Get Job
++            <Button variant="outlined" color="default" className={classes.profileJob}>
++              Jobs
+               </Button>
+-            </Grid>
+-            <Grid item>
+-              <Button variant="contained" color="default">
+-                Get Social
++            <Button variant="outlined" color="default" className={classes.profileJob}>
++              Get Social
+               </Button>
+-            </Grid>
+-            <Grid item>
+-              <Button
+-                variant="contained"
+-                color="inherit"
+-                className={classes.profileBtn}
+-              >
+-                James Keem
++            <Button
++              variant="outlined"
++              color="inherit"
++              className={classes.profileBtn}
++            >
++              James Keem
+               </Button>
+-            </Grid>
+           </Grid>
+           <Button onClick={() => setOpen(!open)}>
+             Menu <Menu />
+           </Button>
+         </Toolbar>
++        <Box className={classes.appBorder} > </Box>
+       </AppBar>
+       <Drawer
+         open={open}
+@@ -78,21 +72,10 @@ const Header = (props: any) => {
+         <Toolbar />
+         <div className={classes.drawerContainer}>
+           <List>
+-            {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
++            {["Employer Profile", "Onboard Your Vehicles", "Search & Hire Drivers", "Inbox", "Recruitment", "My Organisations", "Rate A Driver", "My Subscription",].map((text, index) => (
+               <ListItem button key={text}>
+                 <ListItemIcon>
+-                  {index % 2 === 0 ? <MoveToInbox /> : <Mail />}
+-                </ListItemIcon>
+-                <ListItemText primary={text} />
+-              </ListItem>
+-            ))}
+-          </List>
+-          <Divider />
+-          <List>
+-            {["All mail", "Trash", "Spam"].map((text, index) => (
+-              <ListItem button key={text}>
+-                <ListItemIcon>
+-                  {index % 2 === 0 ? <MoveToInbox /> : <Mail />}
++                  {index % 2 === 0 ? <Mail className={classes.drawerIcon} />  : <MoveToInbox className={classes.drawerIcon} />}
+                 </ListItemIcon>
+                 <ListItemText primary={text} />
+               </ListItem>
+diff --git a/src/components/Header/style.ts b/src/components/Header/style.ts
+index 7e03657..e292b96 100644
+--- a/src/components/Header/style.ts
++++ b/src/components/Header/style.ts
+@@ -1,6 +1,6 @@
+ import { makeStyles, Theme } from '@material-ui/core/styles';
+ 
+-const drawerWidth = 240;
++const drawerWidth = 280;
+ 
+ const useStyles = makeStyles((theme: Theme) => ({
+   root: {
+@@ -8,30 +8,44 @@ const useStyles = makeStyles((theme: Theme) => ({
+   },
+   appBar: {
+     zIndex: theme.zIndex.drawer + 1,
++    background: '#fff',
++  },
++  appBorder: {
++    background: '#3B3B3B',
++    width: '100%',
++    height: '15px',
+   },
+   menuButton: {
+     marginRight: theme.spacing(2),
+   },
++  instaDriver: {
++    height: '45px',
++  },
+   title: {
+     flexGrow: 1,
+   },
+   menuButtonItems: {
+-    width:'100%',
+-    float: 'right'
++    marginLeft: 'auto',
+   },
+   profileBtn:{
++    margin: '0 15px',
+     backgroundColor:'#3b3b3b',
+     color: '#fff',
+     '&:hover':{
+       color: '#000', 
+     }
+   },
++  profileJob: {
++    margin: '0 15px',
++  },
+   drawer: {
+     width: drawerWidth,
+     flexShrink: 0,
++    paddingTop: '40px',
+   },
+   drawerPaper: {
+     width: drawerWidth,
++    paddingTop: '40px',
+     background: theme.palette.primary.main,
+     color: '#fff',
+     '&.svg':{
+@@ -57,6 +71,9 @@ const useStyles = makeStyles((theme: Theme) => ({
+     }),
+     marginLeft: 0,
+   },
++  drawerIcon: {
++    color: '#fff',
++  },
+ }));
+ 
+ export default useStyles;
+diff --git a/src/containers/Homepage/index.tsx b/src/containers/Homepage/index.tsx
+index 23999b1..27755a7 100644
+--- a/src/containers/Homepage/index.tsx
++++ b/src/containers/Homepage/index.tsx
+@@ -8,16 +8,30 @@ import {
+   CardHeader,
+   CardMedia,
+   Grid,
++  Input,
++  Box,
+   IconButton,
+   InputBase,
+   TextField,
+   Typography,
+ } from "@material-ui/core";
++import SearchIcon from '@material-ui/icons/Search';
+ import { AppDispatch } from "../../store";
+ import { HomepageProps } from "./Homepage.interface";
+ import { fetchDriversDataRequest, fetchDriverChatDataRequest } from "./reducer";
+ import useStyles from "./style";
+-import { MoreVert, Add } from "@material-ui/icons";
++import { MoreVert, Add, Info } from "@material-ui/icons";
++import AttachmentIcon from '@material-ui/icons/Attachment';
++import MicIcon from '@material-ui/icons/Mic';
++import SendIcon from '@material-ui/icons/Send';
++import SentimentSatisfiedIcon from '@material-ui/icons/SentimentSatisfied';
++import Avtar from '../../assets/Avtar.png';
++import FilterIcon from '../../assets/FilterIcon.svg';
++import seenIcon from '../../assets/seenIcon.svg';
++import unseenIcon from '../../assets/unseenIcon.svg';
++import deleteIcon from '../../assets/deleteIcon.svg';
++
++
+ 
+ const Homepage = (props: HomepageProps) => {
+   const {
+@@ -34,16 +48,114 @@ const Homepage = (props: HomepageProps) => {
+       direction="row"
+       justify="center"
+       // alignItems="center"
+-      spacing={2}
++      spacing={3}
+     >
+       <Grid item md={6}>
+-        <TextField
+-          fullWidth
+-          id="filled-search"
+-          label="Search field"
+-          type="search"
+-          variant="filled"
+-        />
++        <Box className={classes.headerSearch}>
++          <form
++            noValidate
++            autoComplete="off"
++            className={classes.searchWrapper}
++          >
++            <Button
++              variant="contained"
++              className={classes.searchButton}
++              size="large"
++              startIcon={<SearchIcon />}
++            >
++            </Button>
++            <Input
++              className={classes.searchInput}
++              placeholder="Search users, messages or chat id’s"
++              inputProps={{ 'aria-label': 'description' }}
++            />
++          </form>
++          <Button>
++            <img src={FilterIcon} className={classes.filterIcon} alt="" />
++          </Button>
++        </Box>
++
++        <Box className={classes.userCardwrapper}>
++
++
++          <Box className={classes.userCard} >
++            <Grid container spacing={3} >
++              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>
++              <Grid xs={3}>
++                <div className={classes.userAvatar}>
++                  <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
++                  <Box className={classes.avatarName}> Shirly Cook</Box>
++                  <Box className={classes.avatarID}> @JohntheD </Box>
++                </div>
++              </Grid>
++              <Grid xs={9}>
++                <Typography variant="h6" > Inquiry about reloca....</Typography>
++                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>
++              </Grid>
++              <Box className={classes.userCardtime} > 11:00 a.m </Box>
++              <Box className={classes.userCardnumber} > 4 </Box>
++            </Grid>
++          </Box>
++
++          <Box className={classes.userCardgray} >
++            <Grid container spacing={3} >
++              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>
++              <Grid xs={3}>
++                <div className={classes.userAvatar}>
++                  <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
++                  <Box className={classes.avatarName}> Shirly Cook</Box>
++                  <Box className={classes.avatarID}> @JohntheD </Box>
++                </div>
++              </Grid>
++              <Grid xs={9}>
++                <Typography variant="h6" > Inquiry about reloca....</Typography>
++                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>
++              </Grid>
++              <Box className={classes.userCardtime} > 11:00 a.m </Box>
++              <Box className={classes.userCardnumber} > 4 </Box>
++            </Grid>
++          </Box>
++
++          <Box className={classes.userCardgray} >
++            <Grid container spacing={3} >
++              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>
++              <Grid xs={3}>
++                <div className={classes.userAvatar}>
++                  <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
++                  <Box className={classes.avatarName}> Shirly Cook</Box>
++                  <Box className={classes.avatarID}> @JohntheD </Box>
++                </div>
++              </Grid>
++              <Grid xs={9}>
++                <Typography variant="h6" > Inquiry about reloca....</Typography>
++                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>
++              </Grid>
++              <Box className={classes.userCardtime} > 11:00 a.m </Box>
++              <Box className={classes.userCardnumber} > 4 </Box>
++            </Grid>
++          </Box>
++
++          <Box className={classes.userCardgray} >
++            <Grid container spacing={3} >
++              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>
++              <Grid xs={3}>
++                <div className={classes.userAvatar}>
++                  <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
++                  <Box className={classes.avatarName}> Shirly Cook</Box>
++                  <Box className={classes.avatarID}> @JohntheD </Box>
++                </div>
++              </Grid>
++              <Grid xs={9}>
++                <Typography variant="h6" > Inquiry about reloca....</Typography>
++                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>
++              </Grid>
++              <Box className={classes.userCardtime} > 11:00 a.m </Box>
++              <Box className={classes.userCardnumber} > 4 </Box>
++            </Grid>
++          </Box>
++
++        </Box>
++
+       </Grid>
+       <Grid item md={6}>
+         <Grid container>
+@@ -56,15 +168,15 @@ const Homepage = (props: HomepageProps) => {
+               Start a new chat
+             </Button>
+           </Grid>
+-          <Grid item md={12}>
+-            <Card>
++          <Grid item md={12} className={classes.chatWrapperbox}>
++            <Box className={classes.chatWrapper}>
+               <CardHeader
+                 className={classes.chatHeader}
+                 avatar={
+                   <div className={classes.avatar}>
+-                    <Avatar aria-label="recipe">R</Avatar>
+-                    <div> User name</div>
+-                    <div> User email</div>
++                    <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
++                    <Box className={classes.avatarName}> Shirly Cook</Box>
++                    <Box className={classes.avatarID}> @JohntheD </Box>
+                   </div>
+                 }
+                 action={
+@@ -72,6 +184,7 @@ const Homepage = (props: HomepageProps) => {
+                     <Button
+                       variant="contained"
+                       className={classes.contactInfoBtn}
++                      startIcon={<Info />}
+                     >
+                       Contact info
+                     </Button>
+@@ -80,51 +193,83 @@ const Homepage = (props: HomepageProps) => {
+                     </IconButton>
+                   </div>
+                 }
+-                title="Title"
++                title="Inquiry about relocation from Nairobi"
+               />
+               <CardMedia
+                 image="/static/images/cards/paella.jpg"
+                 title="Paella dish"
++
+               />
+-              <CardContent>
+-                <Typography variant="body2" color="textSecondary" component="p">
+-                  This impressive paella is a perfect party dish and a fun meal
+-                  to cook together with your guests. Add 1 cup of frozen peas
+-                  along with the mussels, if you like.
+-                </Typography>
++              <CardContent className={classes.chatId} >
++                <Typography className={classes.chatIdnumber} > Chat ID: 3362Gd2 </Typography>
+               </CardContent>
+-              <CardContent>
+-                <Typography paragraph>Method:</Typography>
+-                <Typography paragraph>
+-                  Heat 1/2 cup of the broth in a pot until simmering, add
+-                  saffron and set aside for 10 minutes.
++
++              <Box className={classes.chatWrappermessage} >
++
++                <CardContent>
++                  <Typography className={classes.chatBluebox} >
++                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                 </Typography>
+-                <Typography paragraph>
+-                  Heat oil in a (14- to 16-inch) paella pan or a large, deep
+-                  skillet over medium-high heat. Add chicken, shrimp and
+-                  chorizo, and cook, stirring occasionally until lightly
+-                  browned, 6 to 8 minutes. Transfer shrimp to a large plate and
+-                  set aside, leaving chicken and chorizo in the pan. Add
+-                  pimentón, bay leaves, garlic, tomatoes, onion, salt and
+-                  pepper, and cook, stirring often until thickened and fragrant,
+-                  about 10 minutes. Add saffron broth and remaining 4 1/2 cups
+-                  chicken broth; bring to a boil.
++                  <Typography className={classes.charTimeyou}> 11:00 a.m. </Typography>
++                </CardContent>
++
++                <CardContent>
++                  <Typography className={classes.chatPinkbox} >
++                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 </Typography>
+-                <Typography paragraph>
+-                  Add rice and stir very gently to distribute. Top with
+-                  artichokes and peppers, and cook without stirring, until most
+-                  of the liquid is absorbed, 15 to 18 minutes. Reduce heat to
+-                  medium-low, add reserved shrimp and mussels, tucking them down
+-                  into the rice, and cook again without stirring, until mussels
+-                  have opened and rice is just tender, 5 to 7 minutes more.
+-                  (Discard any mussels that don’t open.)
++                  <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={seenIcon} alt="" /> </Typography>
++                </CardContent>
++
++                <CardContent>
++                  <Typography className={classes.chatBluebox} >
++                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                 </Typography>
+-                <Typography>
+-                  Set aside off of the heat to let rest for 10 minutes, and then
+-                  serve.
++                  <Typography className={classes.charTimeyou}> 11:00 a.m. </Typography>
++                </CardContent>
++
++                <CardContent>
++                  <Typography className={classes.chatPinkbox} >
++                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 </Typography>
+-              </CardContent>
+-            </Card>
++                  <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={unseenIcon} alt="" /> </Typography>
++                </CardContent>
++
++
++                <CardContent className={classes.chatPinkboxdelete} >
++                  <Box>
++                    <Typography className={classes.chatPinkbox} >
++                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
++                  </Typography>
++                    <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={unseenIcon} alt="" /> </Typography>
++                  </Box>
++                  <Box>
++                    <img className={classes.chatPinkboxdeleteicon} src={deleteIcon} alt="" />
++                  </Box>
++                </CardContent>
++              </Box>
++              <Box className={classes.messageBox} >
++                <Input
++                  className={classes.messageInput}
++                  fullWidth
++                  placeholder="Type your message"
++                  inputProps={{ 'aria-label': 'description' }}
++                />
++
++                <Box className={classes.buttonWrapper} >
++                  <Grid container spacing={3}>
++                    <Grid xs={6} >
++                      <Button size="large" > <AttachmentIcon /> </Button>
++                      <Button size="large" > <SentimentSatisfiedIcon /> </Button>
++                      <Button size="large" > <MicIcon /> </Button>
++                    </Grid>
++                    <Grid xs={6} >
++                      <Button color="primary" className={classes.sendButtonIcon} > <SendIcon /> </Button>
++                    </Grid>
++                  </Grid>
++                </Box>
++
++              </Box>
++            </Box>
+           </Grid>
+         </Grid>
+       </Grid>
+diff --git a/src/containers/Homepage/style.ts b/src/containers/Homepage/style.ts
+index 2761700..e289d27 100644
+--- a/src/containers/Homepage/style.ts
++++ b/src/containers/Homepage/style.ts
+@@ -1,27 +1,221 @@
+ import { cyan, yellow } from '@material-ui/core/colors';
+ import { makeStyles, Theme } from '@material-ui/core/styles';
++import { BorderRight } from '@material-ui/icons';
++
+ 
+ const useStyles = makeStyles((theme: Theme) => ({
+-  chatHeader: {
+-    backgroundColor: cyan[100]
+-  },
+-  avatar: {
+-   margin: 'auto'
+-  },
+-  newChat:{
+-    backgroundColor: yellow[600],
++  newChat: {
++    backgroundColor: '#FFBB00',
+     float: 'right',
+     marginBottom: theme.spacing(3),
+     textTransform: 'none',
++    color: '#fff',
+   },
+-  contactInfoBtn:{
+-    backgroundColor:'#3b3b3b',
++  contactInfoBtn: {
++    backgroundColor: '#6B6565',
+     color: '#fff',
+     textTransform: 'none',
+-    '&:hover':{
+-      color: '#000', 
+-    }
+-  }
++    '&:hover': {
++      color: '#000',
++    },
++  },
++  chatHeader: {
++    background: '#E8F5F9',
++    borderRadius: '15px 15px 0 0',
++    borderBottom: '1px solid #C4C4C4',
++  },
++  chatWrapper: {
++    borderRadius: '15px',
++    border: '1px solid #C4C4C4',
++  },
++  chatWrapperbox: {
++    background: '#fff',
++    borderRadius: '15px'
++  },
++  avatarName: {
++    marginTop: '10px',
++    fontSize: '18px',
++    fontWeight: 'bold',
++  },
++  avatarID: {
++    marginTop: '5px',
++    color: '#999',
++  },
++  avatarImg: {
++    width: '52px',
++    height: '52px',
++    margin: 'auto',
++  },
++  avatar: {
++    textAlign: 'center',
++    width: '120px',
++    marginTop: '-40px',
++  },
++  userAvatar: {
++    textAlign: 'center',
++  },
++  headerSearch: {
++    textAlign: 'center',
++    width: '100%',
++    display: 'inline-flex',
++  },
++  searchButton: {
++    borderRadius: '50px',
++    minWidth: '30px',
++    padding: '10px',
++    marginTop: '2px',
++    boxShadow: 'none',
++    position: 'absolute',
++    background: 'none'
++  },
++  searchInput: {
++    padding: '6px 10px',
++    width: '90%',
++    marginLeft: '32px',
++    '&::before': {
++      borderBottom: 'none !important',
++    },
++    '&::after': {
++      borderBottom: 'none !important',
++    },
++  },
++  searchWrapper: {
++    border: '1px solid #FFBB00',
++    width: 'calc(100% - 80px)',
++    borderRadius: '50px',
++    background: '#FFFFFF',
++  },
++  filterIcon: {
++    width: '36px',
++  },
++  chatId: {
++    position: 'relative',
++    textAlign: 'right',
++  },
++  chatIdnumber: {
++    position: 'absolute',
++    background: '#EFEBEB',
++    padding: '6px 10px',
++    right: '0',
++    top: '0',
++    borderRadius: '0 0 0 5px'
++  },
++  chatBluebox: {
++    width: '80%',
++    background: '#ECF2FA',
++    padding: '20px',
++    borderRadius: '15px 15px 15px 0'
++  },
++  chatWrappermessage: {
++    padding: '30px',
++    overflowY: 'auto',
++    maxHeight: '50vh',
++  },
++  charTimeyou: {
++    color: '#C4C4C4',
++    padding: '5px',
++  },
++  chatPinkbox: {
++    width: '80%',
++    background: '#FCF2F7',
++    padding: '20px',
++    borderRadius: '15px 15px 0 15px',
++    marginLeft: 'auto',
++  },
++  charTimeme: {
++    color: '#C4C4C4',
++    padding: '5px',
++    textAlign: 'right',
++  },
++  seenIcon: {
++    verticalAlign: 'middle',
++    width: '24px',
++  },
++  chatPinkboxdelete: {
++    display: 'flex',
++  },
++  chatPinkboxdeleteicon: {
++    width: '24px',
++    marginTop: '100%',
++    marginLeft: '10px',
++  },
++  userCardwrapper: {
++    marginTop: '20px',
++    padding: '30px',
++    borderRadius: '6px 6px 0 0',
++    background: '#fff',
++    maxHeight: '70vh',
++    overflowY: 'auto',
++  },
++  userCard: {
++    padding: '40px 20px',
++    background: '#E8F5F9',
++    borderRadius: '6px',
++    position: 'relative',
++    border: '1px solid #FFBB00',
++    marginBottom: '30px',
++  },
++  userCardgray: {
++    padding: '40px 20px',
++    background: '#F9F8F8',
++    borderRadius: '6px',
++    position: 'relative',
++    border: '1px solid #C4C4C4',
++    marginBottom: '30px',
++  },
++  userCardid: {
++    background: '#EFEBEB',
++    position: 'absolute',
++    padding: '6px',
++    borderRadius: '0 6px 0 6px',
++    right: '0',
++    top: '0',
++  },
++  userCardtime: {
++    position: 'absolute',
++    bottom: '15px',
++    right: '30px',
++    color: '#279F2C',
++  },
++  userCardnumber: {
++    position: 'absolute',
++    bottom: '-18px',
++    right: '-18px',
++    background: '#279F2C',
++    borderRadius: '50px',
++    width: '42px',
++    height: '42px',
++    textAlign: 'center',
++    lineHeight: '42px',
++    color: '#fff',
++  },
++  messageBox: {
++    borderRadius: '15px',
++    border: '1px solid #FFBB00'
++  },
++  messageInput: {
++    padding: '6px 10px',
++    margin: '15px ',
++    '&::before': {
++      borderBottom: 'none !important',
++    },
++    '&::after': {
++      borderBottom: 'none !important',
++    },
++  },
++  buttonWrapper: {
++    background: '#F9F8F8',
++    padding: '20px 30px',
++    borderRadius: '0 0 15px 15px'
++  },
++  sendButtonIcon: {
++    background: '#FFBB00',
++    color: '#fff',
++    float: 'right',
++    '&:hover': {
++      background: '#914A9C',
++    },
++  },
+ }));
+ 
+ export default useStyles;
+diff --git a/src/index.css b/src/index.css
+index ec2585e..d0d3bbd 100644
+--- a/src/index.css
++++ b/src/index.css
+@@ -5,6 +5,7 @@ body {
+     sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
++  background: #F5F5F5;
+ }
+ 
+ code {

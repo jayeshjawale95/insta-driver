@@ -5,12 +5,13 @@ const drawerWidth = 240;
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
     display: 'flex',
+    background: '#f5f5f5',
   },
   mainContent:{
-    minHeight:'80vh',
+    minHeight:'90vh',
   },
   content: {
-    marginTop: '60px',
+    marginTop: '90px',
     flexGrow: 1,
     padding: theme.spacing(3),
     transition: theme.transitions.create('margin', {

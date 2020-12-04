@@ -1,20 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   AppBar,
   Toolbar,
-  Typography,
   IconButton,
   Button,
   Grid,
   Drawer,
   List,
+  Box,
   ListItem,
   ListItemText,
   ListItemIcon,
-  Divider,
 } from "@material-ui/core";
-import { Home, Menu, Mail, MoveToInbox } from "@material-ui/icons";
+import { Menu } from "@material-ui/icons";
+import PermIdentityIcon from '@material-ui/icons/PermIdentity';
+import DriveEtaIcon from '@material-ui/icons/DriveEta';
+import SearchIcon from '@material-ui/icons/Search';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
+import StarsIcon from '@material-ui/icons/Stars';
+import PaymentIcon from '@material-ui/icons/Payment';
+import PictureInPictureAltIcon from '@material-ui/icons/PictureInPictureAlt';
+
 import useStyles from "./style";
+import Instadriver from '../../assets/Instadriver.png';
 
 const Header = (props: any) => {
   const classes = useStyles();
@@ -29,43 +38,34 @@ const Header = (props: any) => {
             color="inherit"
             aria-label="menu"
           >
-            {/* TODO: Add image here */}
-            <Home />
-            <Typography variant="h6" className={classes.title}>
-              InstaDriver
-            </Typography>
+            <img className={classes.instaDriver} src={Instadriver} alt="" />
           </IconButton>
           <Grid
             className={classes.menuButtonItems}
             container
             direction="row"
-            justify="space-around"
-            alignItems="center"
+            justify="flex-end"
+            alignItems="flex-end"
           >
-            <Grid item>
-              <Button variant="contained" color="default">
-                Get Job
+            <Button variant="outlined" color="default" className={classes.profileJob}>
+              Jobs
               </Button>
-            </Grid>
-            <Grid item>
-              <Button variant="contained" color="default">
-                Get Social
+            <Button variant="outlined" color="default" className={classes.profileJob}>
+              Get Social
               </Button>
-            </Grid>
-            <Grid item>
-              <Button
-                variant="contained"
-                color="inherit"
-                className={classes.profileBtn}
-              >
-                James Keem
+            <Button
+              variant="outlined"
+              color="inherit"
+              className={classes.profileBtn}
+            >
+              James Keem
               </Button>
-            </Grid>
           </Grid>
           <Button onClick={() => setOpen(!open)}>
             Menu <Menu />
           </Button>
         </Toolbar>
+        <Box className={classes.appBorder} > </Box>
       </AppBar>
       <Drawer
         open={open}
@@ -78,25 +78,54 @@ const Header = (props: any) => {
         <Toolbar />
         <div className={classes.drawerContainer}>
           <List>
-            {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-              <ListItem button key={text}>
+            <ListItem button>
                 <ListItemIcon>
-                  {index % 2 === 0 ? <MoveToInbox /> : <Mail />}
+                  <PermIdentityIcon className={classes.drawerIcon} />
                 </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
-          </List>
-          <Divider />
-          <List>
-            {["All mail", "Trash", "Spam"].map((text, index) => (
-              <ListItem button key={text}>
+                <ListItemText primary="Employer Profile" />
+            </ListItem>
+            <ListItem button>
                 <ListItemIcon>
-                  {index % 2 === 0 ? <MoveToInbox /> : <Mail />}
+                  <DriveEtaIcon className={classes.drawerIcon} />
                 </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
+                <ListItemText primary="Onboard Your Vehicles" />
+            </ListItem>
+            <ListItem button>
+                <ListItemIcon>
+                  <SearchIcon className={classes.drawerIcon} />
+                </ListItemIcon>
+                <ListItemText primary="Search Hire Drivers" />
+            </ListItem>
+            <ListItem button>
+                <ListItemIcon>
+                  <MailOutlineIcon className={classes.drawerIcon} />
+                </ListItemIcon>
+                <ListItemText primary="Inbox" />
+            </ListItem>
+            <ListItem button>
+                <ListItemIcon>
+                  <WorkOutlineIcon className={classes.drawerIcon} />
+                </ListItemIcon>
+                <ListItemText primary="Recruitment" />
+            </ListItem>
+            <ListItem button>
+                <ListItemIcon>
+                  <PictureInPictureAltIcon className={classes.drawerIcon} />
+                </ListItemIcon>
+                <ListItemText primary="My Organisations" />
+            </ListItem>
+            <ListItem button>
+                <ListItemIcon>
+                  <StarsIcon className={classes.drawerIcon} />
+                </ListItemIcon>
+                <ListItemText primary="Rate A Driver" />
+            </ListItem>
+            <ListItem button>
+                <ListItemIcon>
+                  <PaymentIcon className={classes.drawerIcon} />
+                </ListItemIcon>
+                <ListItemText primary="My Subscription" />
+            </ListItem>
           </List>
         </div>
       </Drawer>

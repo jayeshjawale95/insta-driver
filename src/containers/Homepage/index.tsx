@@ -3,29 +3,34 @@ import { connect } from "react-redux";
 import {
   Avatar,
   Button,
-  Card,
   CardContent,
   CardHeader,
   CardMedia,
   Grid,
+  Input,
+  Box,
   IconButton,
-  InputBase,
-  TextField,
   Typography,
 } from "@material-ui/core";
+import SearchIcon from '@material-ui/icons/Search';
 import { AppDispatch } from "../../store";
 import { HomepageProps } from "./Homepage.interface";
 import { fetchDriversDataRequest, fetchDriverChatDataRequest } from "./reducer";
 import useStyles from "./style";
-import { MoreVert, Add } from "@material-ui/icons";
+import { MoreVert, Add, Info } from "@material-ui/icons";
+import AttachmentIcon from '@material-ui/icons/Attachment';
+import MicIcon from '@material-ui/icons/Mic';
+import SendIcon from '@material-ui/icons/Send';
+import SentimentSatisfiedIcon from '@material-ui/icons/SentimentSatisfied';
+import Avtar from '../../assets/Avtar.png';
+import FilterIcon from '../../assets/FilterIcon.svg';
+import seenIcon from '../../assets/seenIcon.svg';
+import unseenIcon from '../../assets/unseenIcon.svg';
+import deleteIcon from '../../assets/deleteIcon.svg';
+
+
 
 const Homepage = (props: HomepageProps) => {
-  const {
-    driversError,
-    driversChatError,
-    fetchDriversData,
-    fetchDriverChatData,
-  } = props;
   const classes = useStyles();
 
   return (
@@ -33,17 +38,114 @@ const Homepage = (props: HomepageProps) => {
       container
       direction="row"
       justify="center"
-      // alignItems="center"
-      spacing={2}
+      spacing={3}
     >
       <Grid item md={6}>
-        <TextField
-          fullWidth
-          id="filled-search"
-          label="Search field"
-          type="search"
-          variant="filled"
-        />
+        <Box className={classes.headerSearch}>
+          <form
+            noValidate
+            autoComplete="off"
+            className={classes.searchWrapper}
+          >
+            <Button
+              variant="contained"
+              className={classes.searchButton}
+              size="large"
+              startIcon={<SearchIcon />}
+            >
+            </Button>
+            <Input
+              className={classes.searchInput}
+              placeholder="Search users, messages or chat id’s"
+              inputProps={{ 'aria-label': 'description' }}
+            />
+          </form>
+          <Button>
+            <img src={FilterIcon} className={classes.filterIcon} alt="" />
+          </Button>
+        </Box>
+
+        <Box className={classes.userCardwrapper}>
+
+
+          <Box className={classes.userCard} >
+            <Grid container spacing={3} >
+              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>
+              <Grid xs={3}>
+                <div className={classes.userAvatar}>
+                  <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
+                  <Box className={classes.avatarName}> Shirly Cook</Box>
+                  <Box className={classes.avatarID}> @JohntheD </Box>
+                </div>
+              </Grid>
+              <Grid xs={9}>
+                <Typography variant="h6" > Inquiry about reloca....</Typography>
+                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>
+              </Grid>
+              <Box className={classes.userCardtime} > 11:00 a.m </Box>
+              <Box className={classes.userCardnumber} > 4 </Box>
+            </Grid>
+          </Box>
+
+          <Box className={classes.userCardgray} >
+            <Grid container spacing={3} >
+              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>
+              <Grid xs={3}>
+                <div className={classes.userAvatar}>
+                  <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
+                  <Box className={classes.avatarName}> Shirly Cook</Box>
+                  <Box className={classes.avatarID}> @JohntheD </Box>
+                </div>
+              </Grid>
+              <Grid xs={9}>
+                <Typography variant="h6" > Inquiry about reloca....</Typography>
+                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>
+              </Grid>
+              <Box className={classes.userCardtime} > 11:00 a.m </Box>
+              <Box className={classes.userCardnumber} > 4 </Box>
+            </Grid>
+          </Box>
+
+          <Box className={classes.userCardgray} >
+            <Grid container spacing={3} >
+              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>
+              <Grid xs={3}>
+                <div className={classes.userAvatar}>
+                  <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
+                  <Box className={classes.avatarName}> Shirly Cook</Box>
+                  <Box className={classes.avatarID}> @JohntheD </Box>
+                </div>
+              </Grid>
+              <Grid xs={9}>
+                <Typography variant="h6" > Inquiry about reloca....</Typography>
+                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>
+              </Grid>
+              <Box className={classes.userCardtime} > 11:00 a.m </Box>
+              <Box className={classes.userCardnumber} > 4 </Box>
+            </Grid>
+          </Box>
+
+          <Box className={classes.userCardgray} >
+            <Grid container spacing={3} >
+              <Box className={classes.userCardid} > Chat ID: 3362Gd2</Box>
+              <Grid xs={3}>
+                <div className={classes.userAvatar}>
+                  <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
+                  <Box className={classes.avatarName}> Shirly Cook</Box>
+                  <Box className={classes.avatarID}> @JohntheD </Box>
+                </div>
+              </Grid>
+              <Grid xs={9}>
+                <Typography variant="h6" > Inquiry about reloca....</Typography>
+                <Typography> Vacancy ads help you attract potential hires who are.....</Typography>
+              </Grid>
+              <Box className={classes.userCardtime} > 11:00 a.m </Box>
+              <Box className={classes.userCardnumber} > 4 </Box>
+            </Grid>
+          </Box>
+
+        </Box>
+
       </Grid>
       <Grid item md={6}>
         <Grid container>
@@ -56,15 +158,15 @@ const Homepage = (props: HomepageProps) => {
               Start a new chat
             </Button>
           </Grid>
-          <Grid item md={12}>
-            <Card>
+          <Grid item md={12} className={classes.chatWrapperbox}>
+            <Box className={classes.chatWrapper}>
               <CardHeader
                 className={classes.chatHeader}
                 avatar={
                   <div className={classes.avatar}>
-                    <Avatar aria-label="recipe">R</Avatar>
-                    <div> User name</div>
-                    <div> User email</div>
+                    <Avatar className={classes.avatarImg} src={Avtar} aria-label="recipe"> R </Avatar>
+                    <Box className={classes.avatarName}> Shirly Cook</Box>
+                    <Box className={classes.avatarID}> @JohntheD </Box>
                   </div>
                 }
                 action={
@@ -72,6 +174,7 @@ const Homepage = (props: HomepageProps) => {
                     <Button
                       variant="contained"
                       className={classes.contactInfoBtn}
+                      startIcon={<Info />}
                     >
                       Contact info
                     </Button>
@@ -80,51 +183,83 @@ const Homepage = (props: HomepageProps) => {
                     </IconButton>
                   </div>
                 }
-                title="Title"
+                title="Inquiry about relocation from Nairobi"
               />
               <CardMedia
                 image="/static/images/cards/paella.jpg"
                 title="Paella dish"
+
               />
-              <CardContent>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  This impressive paella is a perfect party dish and a fun meal
-                  to cook together with your guests. Add 1 cup of frozen peas
-                  along with the mussels, if you like.
-                </Typography>
+              <CardContent className={classes.chatId} >
+                <Typography className={classes.chatIdnumber} > Chat ID: 3362Gd2 </Typography>
               </CardContent>
-              <CardContent>
-                <Typography paragraph>Method:</Typography>
-                <Typography paragraph>
-                  Heat 1/2 cup of the broth in a pot until simmering, add
-                  saffron and set aside for 10 minutes.
+
+              <Box className={classes.chatWrappermessage} >
+
+                <CardContent>
+                  <Typography className={classes.chatBluebox} >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                 </Typography>
-                <Typography paragraph>
-                  Heat oil in a (14- to 16-inch) paella pan or a large, deep
-                  skillet over medium-high heat. Add chicken, shrimp and
-                  chorizo, and cook, stirring occasionally until lightly
-                  browned, 6 to 8 minutes. Transfer shrimp to a large plate and
-                  set aside, leaving chicken and chorizo in the pan. Add
-                  pimentón, bay leaves, garlic, tomatoes, onion, salt and
-                  pepper, and cook, stirring often until thickened and fragrant,
-                  about 10 minutes. Add saffron broth and remaining 4 1/2 cups
-                  chicken broth; bring to a boil.
+                  <Typography className={classes.charTimeyou}> 11:00 a.m. </Typography>
+                </CardContent>
+
+                <CardContent>
+                  <Typography className={classes.chatPinkbox} >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Typography>
-                <Typography paragraph>
-                  Add rice and stir very gently to distribute. Top with
-                  artichokes and peppers, and cook without stirring, until most
-                  of the liquid is absorbed, 15 to 18 minutes. Reduce heat to
-                  medium-low, add reserved shrimp and mussels, tucking them down
-                  into the rice, and cook again without stirring, until mussels
-                  have opened and rice is just tender, 5 to 7 minutes more.
-                  (Discard any mussels that don’t open.)
+                  <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={seenIcon} alt="" /> </Typography>
+                </CardContent>
+
+                <CardContent>
+                  <Typography className={classes.chatBluebox} >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 </Typography>
-                <Typography>
-                  Set aside off of the heat to let rest for 10 minutes, and then
-                  serve.
+                  <Typography className={classes.charTimeyou}> 11:00 a.m. </Typography>
+                </CardContent>
+
+                <CardContent>
+                  <Typography className={classes.chatPinkbox} >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Typography>
-              </CardContent>
-            </Card>
+                  <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={unseenIcon} alt="" /> </Typography>
+                </CardContent>
+
+
+                <CardContent className={classes.chatPinkboxdelete} >
+                  <Box>
+                    <Typography className={classes.chatPinkbox} >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </Typography>
+                    <Typography className={classes.charTimeme}> 11:00 a.m. <img className={classes.seenIcon} src={unseenIcon} alt="" /> </Typography>
+                  </Box>
+                  <Box>
+                    <img className={classes.chatPinkboxdeleteicon} src={deleteIcon} alt="" />
+                  </Box>
+                </CardContent>
+              </Box>
+              <Box className={classes.messageBox} >
+                <Input
+                  className={classes.messageInput}
+                  fullWidth
+                  placeholder="Type your message"
+                  inputProps={{ 'aria-label': 'description' }}
+                />
+
+                <Box className={classes.buttonWrapper} >
+                  <Grid container spacing={3}>
+                    <Grid xs={6} >
+                      <Button size="large" > <AttachmentIcon /> </Button>
+                      <Button size="large" > <SentimentSatisfiedIcon /> </Button>
+                      <Button size="large" > <MicIcon /> </Button>
+                    </Grid>
+                    <Grid xs={6} >
+                      <Button color="primary" className={classes.sendButtonIcon} > <SendIcon /> </Button>
+                    </Grid>
+                  </Grid>
+                </Box>
+
+              </Box>
+            </Box>
           </Grid>
         </Grid>
       </Grid>
