@@ -6,42 +6,11 @@ const useStyles = makeStyles((theme: Theme) => ({
   root: {
     display: 'flex',
   },
-  appBar: {
-    zIndex: theme.zIndex.drawer + 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-  menuButtonItems: {
-    width:'100%',
-    float: 'right'
-  },
-  profileBtn:{
-    backgroundColor:'#3b3b3b',
-    color: '#fff',
-    '&:hover':{
-      color: '#000', 
-    }
-  },
-  drawer: {
-    width: drawerWidth,
-    flexShrink: 0,
-  },
-  drawerPaper: {
-    width: drawerWidth,
-    background: theme.palette.primary.main,
-    color: '#fff',
-    '&.svg':{
-      fill: '#fff'
-    }
-  },
-  drawerContainer: {
-    overflow: 'auto',
+  mainContent:{
+    minHeight:'80vh',
   },
   content: {
+    marginTop: '60px',
     flexGrow: 1,
     padding: theme.spacing(3),
     transition: theme.transitions.create('margin', {
